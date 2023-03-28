@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Duy Vu's Portfolio</title>
+    <link rel="shortcut icon" href="./assets/imgs/512.png" type="image/png">
+    <link rel="shortcut icon" href="./assets/imgs/192.png" type="image/png">
+    <!-- font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://site-assets.fontawesome.com/releases/v6.3.0/css/all.css"
+    />
+    <!-- custom -->
+    <link rel="stylesheet" href="./assets/css/main.min.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <div class="nav-header">
+          <div class="nav-header-wrapper">
+            <img src="./assets/imgs/logo.png" alt="avatar small" />
+          </div>
+
+          <a href="#" class="nav-header-items">
+            <i class="fa-solid fa-house-chimney"></i>
+            <p>HOME</p>
+          </a>
+          <a href="#about" class="nav-header-items">
+            <i class="fa-solid fa-user-hair"></i>
+            <p>ABOUT</p>
+          </a>
+          <a href="#photo" class="nav-header-items">
+            <i class="fa-solid fa-eye"></i>
+            <p>PHOTOS</p>
+          </a>
+          <a href="#contact" class="nav-header-items">
+            <i class="fa-solid fa-message-middle"></i>
+            <p>CONTACT</p>
+          </a>
+        </div>
+      </div>
+
+      <div class="wrapper">
+        <div class="main">
+          <div class="heading">
+            <h1>I'm Duy Vu.</h1>
+            <p>Web Designer.</p>
+          </div>
+          <div class="avatar-wrapper">
+            <img src="./assets/imgs/avatar.png" alt="avatar" />
+          </div>
+          <h2 id="about" class="title">My Name</h2>
+          <p class="desc-title">
+            Hey! My name is Duy Vu and I'm SG based front-end developer. I
+            design for e-commerce, UI/UX, business and some complex database. I
+            find my inspiration in diving into coding work, calculating, and
+            learning new technology. I was born in Sai Gon and have been living
+            here for 27 years. I studied Literature at Industrial University of
+            Ho Chi Minh City and since my graduation I dedicated my life to
+            design and coding. I managed to work when I was 22. From that time I
+            have made over 30 projects and continue working on other next
+            projects.
+          </p>
+          <h3 class="caption">My Skills</h3>
+          <ul class="skills">
+            <li class="skills-items">
+              <p>Web Design</p>
+              <div class="progress"></div>
+            </li>
+            <li class="skills-items">
+              <p>Photoshop</p>
+              <div class="progress"></div>
+            </li>
+            <li class="skills-items">
+              <p>UI / UX</p>
+              <div class="progress"></div>
+            </li>
+          </ul>
+          <ul class="bar">
+            <li class="bar-items">
+              <p>11+</p>
+              <p>Partners</p>
+            </li>
+            <li class="bar-items">
+              <p>30+</p>
+              <p>Projects Done</p>
+            </li>
+            <li class="bar-items">
+              <p>45+</p>
+              <p>Happy Clients</p>
+            </li>
+            <li class="bar-items">
+              <p>100+</p>
+              <p>Meetings</p>
+            </li>
+          </ul>
+          <button class="download-send-btn">
+            <i class="fa-solid fa-download"></i>
+            Download Resume
+          </button>
+
+          <h3 class="caption">My Price</h3>
+          <div class="price">
+            <div class="price-items">
+              <h3>Basic</h3>
+              <p>Web Design</p>
+              <p>Photoshop</p>
+              <p>5GB Storage</p>
+              <p>Mail Support</p>
+              <div class="price-items-box">
+                <p>$ 10</p>
+                <p>per month</p>
+              </div>
+              <div class="price-items-btn">
+                <button>Sign Up</button>
+              </div>
+            </div>
+            <div class="price-items">
+              <h3>Pro</h3>
+              <p>Web Design</p>
+              <p>Photoshop</p>
+              <p>50GB Storage</p>
+              <p>Endless Support</p>
+              <div class="price-items-box">
+                <p>$ 25</p>
+                <p>per month</p>
+              </div>
+              <div class="price-items-btn">
+                <button>Sign Up</button>
+              </div>
+            </div>
+          </div>
+
+          <h2 id="photo" class="title">My Photos</h2>
+          <div class="photo-wrapper">
+            <img src="./assets/imgs/photo1.jpg" alt="photo 1" />
+            <img src="./assets/imgs/photo3.jpg" alt="photo  3" class="long" />
+            <img src="./assets/imgs/photo4.jpg" alt="photo 4" />
+            <img src="./assets/imgs/photo2.jpg" alt="photo 2" class="long" />
+            <img src="./assets/imgs/photo5.jpg" alt="photo 5" />
+            <img src="./assets/imgs/photo6.jpg" alt="photo 6" />
+          </div>
+        </div>
+
+        <div class="footer">
+          <h2 id="contact" class="title">Contact Me</h2>
+          <ul class="infor">
+            <li class="infor-items">
+              <i class="fa-solid fa-earth-americas"></i>
+              <p>Sai Gon, Vietnam</p>
+            </li>
+            <li class="infor-items">
+              <i class="fa-solid fa-phone"></i>
+              <p>Phone: +84 797979</p>
+            </li>
+            <li class="infor-items">
+              <i class="fa-solid fa-envelope"></i>
+              <p>Email: mail@mail.com</p>
+            </li>
+          </ul>
+
+          <form id="form" class="form-infor" method="post">
+            <p>Let's get in touch. Send me a message:</p>
+            <input type="text" required placeholder="Name" />
+            <input type="email" required placeholder="Email" />
+            <input type="text" required placeholder="Subject" />
+            <input type="text" placeholder="Message" />
+            <button class="download-send-btn">
+              <i class="fa-solid fa-paper-plane"></i> Send Message
+            </button>
+          </form>
+
+          <ul class="social">
+            <li class="social-items">
+              <a href="#" target="_blank" rel="noopener no-referrer">
+                <i class="fa-brands fa-facebook"></i>
+              </a>
+            </li>
+            <li class="social-items">
+              <a
+                href="https://github.com/duyvuxx"
+                target="_blank"
+                rel="noopener no-referrer"
+              >
+                <i class="fa-brands fa-github"></i>
+              </a>
+            </li>
+            <li class="social-items">
+              <a href="#" target="_blank" rel="noopener no-referrer">
+                <i class="fa-brands fa-pinterest-p"></i>
+              </a>
+            </li>
+            <li class="social-items">
+              <a href="#" target="_blank" rel="noopener no-referrer">
+                <i class="fa-brands fa-twitter"></i>
+              </a>
+            </li>
+            <li class="social-items">
+              <a href="#" target="_blank" rel="noopener no-referrer">
+                <i class="fa-brands fa-instagram"></i>
+              </a>
+            </li>
+          </ul>
+          <p class="copyright">
+            Copyright
+            <a
+              href="https://github.com/duyvuxx"
+              target="_blank"
+              rel="noopener no-referrer"
+            >
+              <b>DUY VU</b>
+            </a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
