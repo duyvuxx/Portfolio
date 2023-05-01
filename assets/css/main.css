@@ -332,7 +332,7 @@ ul {
   position: absolute;
   left: 0;
   height: 2.5rem;
-  background-color: gray;
+  background-color: rgb(231, 163, 117);
   width: 85%;
 }
 .main .skills-items:nth-of-type(2) > .progress::after {
@@ -340,7 +340,7 @@ ul {
   position: absolute;
   left: 0;
   height: 2.5rem;
-  background-color: gray;
+  background-color: rgb(231, 163, 117);
   width: 80%;
 }
 .main .skills-items:nth-of-type(3) > .progress::after {
@@ -348,7 +348,7 @@ ul {
   position: absolute;
   left: 0;
   height: 2.5rem;
-  background-color: gray;
+  background-color: rgb(231, 163, 117);
   width: 70%;
 }
 .main .bar {
@@ -366,7 +366,7 @@ ul {
   padding: 1.6rem 0;
   background-color: rgb(194, 194, 194);
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: bottom left;
   background-size: cover;
   background-attachment: fixed;
   color: white;
