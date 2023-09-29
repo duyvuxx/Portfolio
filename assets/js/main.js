@@ -10,7 +10,6 @@ start();
 function highlightTabs() {
   const tabs = $$(".nav-header-items");
 
-  console.log(window.scrollTop);
   tabs.forEach((e) => {
     e.addEventListener("click", function () {
       tabs.forEach((val) => val.classList.remove("active"));
